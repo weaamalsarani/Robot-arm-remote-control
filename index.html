@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>control</title>  
+    
+   <link rel="stylesheet" href="style.css">    
+   
+
+
+
+
+</head>
+
+<body>
+
+    
+
+    
+    
+    <div class = "slideContainer">
+        
+        
+
+        
+
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form id="myForm" action="index.php" method = "POST" target="dummyframe">
+
+         <!--Motor1-->
+        <h3 style="color:#6600CC;"align="center"> Motor1</h3>
+        <div style="color:#ff0000;" align="center"class = "motor1">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange1" class = "slider" name = "v1">
+        <p>Value: <span id = "value1"></span></p>
+        </div>
+
+        <br>
+
+
+        <!--Motor2-->
+        <h3 style="color:#6600CC;"align="center">Motor2</h3>
+        <div style="color:#ff0000;" align="center"class = "motor2">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange2" class = "slider" name = "v2">
+        <p>Value: <span id = "value2"></span></p>
+        </div>
+
+        
+        <br>
+        <!--Motor3-->
+        <h3 style="color:#6600CC;"align="center">Motor3</h3>
+        <div style="color:#ff0000;" align="center"class = "motor3">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange3" class = "slider" name = "v3">
+        <p>Value: <span id = "value3"></span></p>
+        </div>
+
+        <br>
+        <!--Motor4-->
+        <h3 style="color:#6600CC;"align="center">Motor4</h3>
+        <div style="color:#ff0000;" align="center"class = "motor4">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange4" class = "slider" name = "v4">
+        <p>Value: <span id = "value4"></span></p>
+        </div>
+
+        <br>
+        <!--Motor5-->
+        <h3 style="color:#6600CC;"align="center">Motor5</h3>
+        <div style="color:#ff0000;" align="center"class = "motor5">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange5" class = "slider" name = "v5">
+        <p>Value: <span id = "value5"></span></p>
+        </div>
+
+        <br>
+        <!--Motor6-->
+        <h3 style="color:#6600CC;"align="center">Motor6</h3>
+        <div style="color:#ff0000;" align="center"class = "motor6">
+        <input type="range" min = "0" max = "180" value="0" id = "myRange6" class = "slider" name = "v6">
+        <p>Value: <span id = "value6"></span></p>
+        </div>
+
+
+
+        <input type="submit" value = "Save" name = save  style="font-size: 75px; background: #FFCCFF; border-radius: 50px;color: white;" > 
+        <input type="submit" value = "ON" name = on  style="font-size: 70px; background: #FFCCFF; border-radius: 50px;color: white;" >
+        <input type="submit" value = "OFF" name = off  style="font-size: 65px; background: #FFCCFF; border-radius: 50px; color: white;" >
+
+
+
+        </form>
+
+        
+
+        
+         
+       
+
+
+            
+  
+
+       
+
+    
+    </div>
+	
+	
+	
+
+<script src="main.js"></script>
+
+
+</html>
